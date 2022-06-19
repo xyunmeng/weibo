@@ -1,0 +1,58 @@
+{
+  "id": "3472368",
+  "name": "weibo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1360",
+      "name": "新浪微博",
+      "font_class": "xinlangweibo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2675116",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "2815723",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "11855588",
+      "name": "信号",
+      "font_class": "xinhao",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "20009202",
+      "name": "hash井号",
+      "font_class": "hashjinghao",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "22227220",
+      "name": "燃脂",
+      "font_class": "daochu1024-07",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "26453331",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

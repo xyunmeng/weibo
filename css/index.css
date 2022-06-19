@@ -1,0 +1,183 @@
+body{
+    background-color: #f5f5f5;
+}
+.bg-video{
+    height: 330px;
+    object-fit: contain;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index:0;
+    /* border: 1px solid red; */
+}
+.headerBox{
+    width: 1920px;
+    /* background-color: rgb(102, 88, 88); */
+    height: 330px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.logoBox{
+    width: 705px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.logo-Wrapper{
+    width: 145px;
+    height: 50px;
+    /* background-color: coral; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.logo-icon{
+    font-size:50px;
+    color:#fff;
+}
+.wordCon h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 25px;
+    text-align: left;
+   
+}
+.wordCon span{
+    color: #fff;
+    font-size: 15px;
+
+}
+.topSearch{
+    background-color:#f2f2f2;
+    /* background-color: aquamarine; */
+    width: 704px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+}
+.inputBox{
+    flex: 1;
+    position: relative;
+    display: flex;
+}
+.one{
+    flex: 1;
+    /* height: 46px; */
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding-left: 56px;
+    box-sizing: border-box;
+    /* background-color: coral; */
+
+}
+.icon-sousuo{
+    font-size:32px;
+    color:#838383;
+    position: absolute;
+    left:10px;
+    top:8px;
+}
+.searchBox{
+    width: 80px;
+}
+.searchBtn{
+    width: 80px;
+    height: 48px;
+    outline: none;
+    border: none;
+    background-color: #ff8200;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.icon-xinhao{
+    color: #ff8200;
+    font-size: 20px;
+    position: absolute;
+    right: -7px;
+    top: 62px;
+    transform: rotate(46deg)
+}
+/* 以上代码为header样式 */
+/* 以上代码为header样式 */
+/* 以上代码为header样式 */
+.mainBox{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1122px;
+    margin: 0 auto;
+    margin-top:3px;
+}
+
+.menubar{
+    width: 182px;
+    height: 562px;
+    background-color:#ffffff;
+}
+
+.containCon{
+    flex: 1;
+    background-color:lightblue;
+
+}
+.rightCon{
+    width: 100px;
+    height: 562px;
+    background-color: lightpink; 
+}
+.menuUL{
+    padding-top: 18px;
+    margin: 0 10px;
+    
+}
+.menuLI{
+   line-height: 24px;
+   padding: 8px 16px;
+   text-align: left;
+   display: flex;
+   align-items: flex-start;
+}
+
+.menuLI:hover{
+    background-color:#f2f2f2; 
+}
+
+.menuLI .iconfont{
+    font-size: 24px;
+    color: #838383;
+    margin-right: 10px;
+
+}
+
+.menuLI a{
+    font-size: 14px;
+    color: #838383;
+}
+
+.selected a {
+    color: #ff8200;
+}
+.selected .iconfont{
+    color: #ff8200;
+}
+
+
+
+
+
+
