@@ -1,263 +1,286 @@
-body{
-    background-color: #f5f5f5;
+body {
+  background-color: #f5f5f5;
 }
-.bg-video{
-    height: 330px;
-    object-fit: cover;
-    width: 100%;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    z-index:0;
+
+.bg-video {
+  height: 330px;
+  object-fit: cover;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  z-index: 0;
 }
-.headerBox{
-    max-width: 1920px;
-    /* background-color: rgb(102, 88, 88); */
-    height: 330px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    display: flex;
-    align-items: center;
+
+.headerBox {
+  max-width: 1920px;
+  /* background-color: rgb(102, 88, 88); */
+  height: 330px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
-.logoBox{
-    width: 705px;
-    margin: 0 auto;
-    /* background-color: aquamarine; */
-    position: relative;
+
+.logoBox {
+  width: 705px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  position: relative;
 }
-.logo-Wrapper{
-    width: 145px;
-    height: 50px;
-    /* background-color: coral; */
-    margin-bottom: 50px;
-    display: flex;
-    justify-content:flex-start;
-    align-items: flex-end;
-    margin: 0 auto;
+
+.logo-Wrapper {
+  width: 145px;
+  height: 50px;
+  /* background-color: coral; */
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0 auto;
 }
-.logo-icon{
-    font-size:50px;
-    color:#fff;
+
+.logo-icon {
+  font-size: 50px;
+  color: #fff;
 }
-.wordCon h1{
-    font-size: 30px;
-    color: #fff;
-    font-weight: 200;
-    font-style: italic;
-    line-height: 25px;
-    text-align: left;
-   
-}
-.wordCon span{
-    color: #fff;
-    font-size: 15px;
+
+.wordCon h1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 25px;
+  text-align: left;
 
 }
-.topSearch{
-    background-color:#f2f2f2;
-    /* background-color: aquamarine; */
-    width: 704px;
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 24px;
-    position: relative;
-    overflow: hidden;
-}
-.inputBox{
-    flex: 1;
-    position: relative;
-    display: flex;
-}
-.one{
-    flex: 1;
-    /* height: 46px; */
-    background: transparent;
-    border: none;
-    font-size: 18px;
-    padding-left: 56px;
-    box-sizing: border-box;
-    /* background-color: coral; */
+
+.wordCon span {
+  color: #fff;
+  font-size: 15px;
 
 }
-.icon-sousuo{
-    font-size:32px;
-    color:#838383;
-    position: absolute;
-    left:10px;
-    top:8px;
+
+.topSearch {
+  background-color: #f2f2f2;
+  /* background-color: aquamarine; */
+  width: 704px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
 }
-.searchBox{
-    width: 80px;
+
+.inputBox {
+  flex: 1;
+  position: relative;
+  display: flex;
 }
-.searchBtn{
-    width: 80px;
-    height: 48px;
-    outline: none;
-    border: none;
-    background-color: #ff8200;
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
+
+.one {
+  flex: 1;
+  /* height: 46px; */
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  padding-left: 56px;
+  box-sizing: border-box;
+  /* background-color: coral; */
+
 }
-.icon-xinhao{
-    color: #ff8200;
-    font-size: 20px;
-    position: absolute;
-    right: -7px;
-    top: 62px;
-    transform: rotate(46deg)
+
+.icon-sousuo {
+  font-size: 32px;
+  color: #838383;
+  position: absolute;
+  left: 10px;
+  top: 8px;
 }
+
+.searchBox {
+  width: 80px;
+}
+
+.searchBtn {
+  width: 80px;
+  height: 48px;
+  outline: none;
+  border: none;
+  background-color: #ff8200;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.icon-xinhao {
+  color: #ff8200;
+  font-size: 20px;
+  position: absolute;
+  right: -7px;
+  top: 62px;
+  transform: rotate(46deg)
+}
+
 /* 以上代码为header样式 */
 /* 以上代码为header样式 */
 /* 以上代码为header样式 */
-.mainBox{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1122px;
-    margin: 0 auto;
-    margin-top:5px;
+.mainBox {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1122px;
+  margin: 0 auto;
+  margin-top: 5px;
 }
+
 /* 左边导航栏 */
-.menubar{
-    width: 182px;
-    height: 562px;
-    background-color:#ffffff;
-
-}
-.menuUL{
-    padding-top: 18px;
-    margin: 0 10px;
-    
-}
-.menuLI{
-   line-height: 24px;
-   padding: 8px 16px;
-   text-align: left;
-   display: flex;
-   align-items: flex-start;
-}
-
-.menuLI:hover{
-    background-color:#f2f2f2; 
-}
-
-.menuLI .iconfont{
-    font-size: 24px;
-    color: #838383;
-    margin-right: 10px;
+.menubar {
+  width: 182px;
+  height: 562px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 56px;
 
 }
 
-.menuLI a{
-    font-size: 14px;
-    color: #838383;
+.menuUL {
+  padding-top: 18px;
+  margin: 0 10px;
+
+}
+
+.menuLI {
+  line-height: 24px;
+  padding: 8px 16px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+}
+
+.menuLI:hover {
+  background-color: #f2f2f2;
+}
+
+.menuLI .iconfont {
+  font-size: 24px;
+  color: #838383;
+  margin-right: 10px;
+
+}
+
+.menuLI a {
+  font-size: 14px;
+  color: #838383;
 }
 
 .selected a {
-    color: #ff8200;
+  color: #ff8200;
 }
-.selected .iconfont{
-    color: #ff8200;
+
+.selected .iconfont {
+  color: #ff8200;
 }
 
 /* 中间内容 */
-.containCon{
-    flex: 1;
-    /* background-color:lightblue; */
-    margin: 0px 10px;
+.containCon {
+  flex: 1;
+  /* background-color:lightblue; */
+  margin: 0px 10px;
+  height: 1000px;
 
 }
-.navCon{
-    height: 44px;
-    text-align: center;
-    line-height: 44px;
-    background-color:#ffffff;
-    display: flex;
-    
-}
-.navUL{
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
+
+.navCon {
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  background-color: #ffffff;
+  display: flex;
+
 }
 
-.navUL li{
-    margin: 0 auto;
-    font-size: 14px;
+.navUL {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navLI{
-    color: #ff8200;
-    font-weight: 600;
+.navUL li {
+  margin: 0 auto;
+  font-size: 14px;
 }
 
-.moreCon{
-    width: 88px;
+.navLI {
+  color: #ff8200;
+  font-weight: 600;
+}
+
+.moreCon {
+  width: 88px;
 }
 
 /* 右侧内容 */
-.rightCon{
-    width: 280px;
-    height: 562px;
-    background-color: #f5f5f5;
-}
-
-.loginCon{
-    height: 184px;
-    background-image: url(../images/loginbg.jpg);
-    background-size:cover;
-    display: flex;
+.rightCon {
+  width: 280px;
+  height: 562px;
+  background-color: #f5f5f5;
+  /* background-color: #ff8200; */
+  position: sticky;
+  top:-562px;
 
 }
 
-.loginCont{
-    margin: auto auto;
-}
-
-.loginImg{
-    display: block;
-    margin: 0 auto;
-}
-.loginBtn{
-    display: block;
-    padding: 9px 30px;
-    margin: auto;
-    border: none;
-    border-radius: 24px;
-    background-color: #ff8200;
-    box-sizing: border-box;
-    font-size: 12px;
-    font-weight: 600;
-    color: #f2f2f2;
-    margin-top: 18px;
-    margin-bottom: 12px;
-}
-
-.loginBtn span{
-    display: block;
-    width: 100px;
+.loginCon {
+  height: 184px;
+  background-image: url(../images/loginbg.jpg);
+  background-size: cover;
+  display: flex;
 
 }
 
-.loginCard span{
-    font-size: 14px;
-    color: #939393;
-    margin-left: 5px;  
+.loginCont {
+  margin: auto auto;
 }
 
-.loginA{
-    font-size: 14px;
-    color: #ff8200;
+.loginImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.loginBtn {
+  display: block;
+  padding: 9px 30px;
+  margin: auto;
+  border: none;
+  border-radius: 24px;
+  background-color: #ff8200;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f2f2f2;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.loginBtn span {
+  display: block;
+  width: 100px;
 
 }
 
+.loginCard span {
+  font-size: 14px;
+  color: #939393;
+  margin-left: 5px;
+}
 
+.loginA {
+  font-size: 14px;
+  color: #ff8200;
 
-
-
-
+}
