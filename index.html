@@ -7,14 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>新浪微博</title>
   <link rel="stylesheet" href="css/reset.min.css">
-  <link rel="stylesheet" href="http://at.alicdn.com/t/font_3340200_3iapzufm5lm.css">
   <link rel="stylesheet" href="font/iconfont.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
   <div id="pcBox">
-    <video class="bg-video" src="./weibo_login.mp4" autoplay='true' loop muted preload
+    <video class="bg-video" src="https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4" autoplay='true' loop muted preload
       poster="https://a.sinaimg.cn/mintra/pic/2112130400/18weibo_login.png"></video>
     <!-- 顶部导航 -->
 
@@ -46,7 +45,7 @@
       <div class="menubar">
         <ul class="menuUL">
           <li class="menuLI selected">
-            <i class="iconfont icon-daochu1024-07"></i>
+            <i class="iconfont icon-hot"></i>
             <a href="javascript:;">热门微博</a>
           </li>
           <li class="menuLI">
@@ -80,6 +79,7 @@
       </div>
       <!-- 右边内容 -->
       <div class="rightCon">
+        <!-- 立即登录 -->
         <div class="loginCon">
           <div class="loginCont">
             <img src="./images/随时随地文字.png" alt="" class="loginImg">
@@ -87,19 +87,170 @@
             <div class="loginCard"><span>还没有微博？</span><a class="loginA">立即注册！</a></div>
           </div>
         </div>
+        <!-- 热搜榜 -->
         <div class="hotListCon">
+          <!-- 榜单头部 刷新 -->
           <div class="hotTop">
-            <div>微博热搜</div>
-            <div>
-              <i></i>
-              <a href="javascript:;">点击刷新</a>
+            <div class="margin">微博热搜</div>
+            <div class="margin">
+              <i class="iconfont icon-shuaxin color-grey"></i>
+              <a href="javascript:;" class="color-grey">点击刷新</a>
             </div>
           </div>
+          <!-- 榜单中部  -->
+          <div class="hotMiddle">
+            <ul class="hotUL margin">
+                <!-- 置顶项 -->
+              <li class="hotLI">
+                <div class="sidePanel">
+                    <i class="iconfont icon-zhiding "></i>
+                    <div class="hotText">沿着总书记的足迹</div>
+                </div>
+                <div class="hotIcon"><span class="hotWard">热</span></div>
+              </li>
+              <!-- 1-10项 -->
+              <li class="hotLI">
+                <div class="sidePanel">
+                  <div class="num red-mark">1</div>
+                  <div class="hotText">高考成绩</div>
+                  <div class="f12">370万</div>
+                </div>
+                <div class="hotIcon"><span class="hotWard">热</span></div>
+              </li>
+              <li class="hotLI">
+                  <div class="sidePanel">
+                    <div class="num red-mark">2</div>
+                    <div class="hotText">高考成绩</div>
+                    <div class="f12">370万</div>
+                  </div>
+                  <div class="hotIcon"><span class="hotWard">热</span></div>
+                </li>
+                <li class="hotLI">
+                    <div class="sidePanel">
+                      <div class="num red-mark">3</div>
+                      <div class="hotText">高考成绩</div>
+                      <div class="f12">370万</div>
+                    </div>
+                    <div class="hotIcon"><span class="hotWard">热</span></div>
+                  </li>
+                  <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">4</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                      <div class="hotIcon"><span class="hotWard">热</span></div>
+                    </li>
+                    <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">5</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                      <div class="hotIcon"><span class="hotWard">热</span></div>
+                    </li>
+                    <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">6</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                      <div class="hotIcon"><span class="hotWard">热</span></div>
+                    </li>
+                    <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">7</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                    </li>
+                    <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">8</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                     
+                    </li>
+                    <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">9</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                      <div class="hotIcon"><span class="hotWard newWard">新</span></div>
+                    </li>
+                    <li class="hotLI">
+                      <div class="sidePanel">
+                        <div class="num yellow-mark">10</div>
+                        <div class="hotText">高考成绩</div>
+                        <div class="f12">370万</div>
+                      </div>
+                      <div class="hotIcon"><span class="hotWard newWard">新</span></div>
+                    </li>
+            </ul>
+          </div>
+          <!-- 榜单底部 -->
+          <div class="hotBottom color-grey">查看完整热搜榜单</div>
         </div>
+        <!-- 关于微博 -->
+        <div class="messageCon">
+          <div class="con1">
+            <i class="iconfont icon-kefu mc1"></i>
+            <span class="mc1">帮助中心</span>
+          </div>
+          <div class="con2">
+            <a href="javascript:;" class="mc2"><span class="mc2">微博客服 40000-960-960</span></a>
+            <a href="javascript:;"><span class="mc2">自助服务中心</span></a>
+            <a href="javascript:;"><span class="mc2">常见问题</span></a>
+          </div>
+          <div class="con1">
+            <i class="iconfont icon-aixin mc1"></i>
+            <span class="mc1">合作 & 服务</span>
+          </div>
+          <div class="con2">
+            <a href="javascript:;" class="mc2"><span class="mc2">微博营销</span></a>
+            <span class="mc2">合作热线 4000-980-980</span>
+            <a href="javascript:;"><span class="mc2">开发平台</span></a>
+            <a href="javascript:;"><span class="mc2">更多</span></a>
+          </div>
+          <div class="con1">
+            <i class="iconfont icon-jubao mc1"></i>
+            <span class="mc1">举报中心</span>
+          </div>
+          <div class="con2">
+           <span class="mc2">违规投诉 010-60618076</span>
+            <a href="javascript:;"><span class="mc2">处理大厅</span></a>
+            <a href="javascript:;"><span class="mc2">舞弊举报</span></a>
+            <a href="javascript:;"><span class="mc2">更多</span></a>
+          </div>
+          <div class="con1">
+            <i class="iconfont icon-guanyuwomen mc1"></i>
+            <span class="mc1">关于微博</span>
+          </div>
+          <div class="con2">
+            <a href="javascript:;" class="mc2"><span class="mc2">About Webio</span></a>
+            <a href="javascript:;"><span class="mc2">客户端下载</span></a>
+            <a href="javascript:;"><span class="mc2">微博招聘</span></a>
+            <a href="javascript:;"><span class="mc2">网络备案信息</span></a>
+          </div>
+          <div class="con1">
+            <i class="iconfont icon-weibo"></i>
+            <span class="mc3">Copyright © 2009-2022</span>
+            <a href="javascript:;"><span class="mc3">营业执照</span></a>
+            <img src="https://a.sinaimg.cn/mintra/pic/2201190827/32aria.png" alt="" class="mcimg">
+
+          </div>
+
+
+        </div>
+        
       </div>
     </main>
     <!-- 底部 -->
-    <footer></footer>
+    <footer>
+      
+    </footer>
 
 
   </div>
