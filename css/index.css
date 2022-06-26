@@ -1,7 +1,159 @@
+:root{
+  --bg:#f5f5f5;
+  --font-color:#333;
+  --theme-bg:#ffffff;
+}
 body {
-  background-color: #f5f5f5;
+  background-color: var( --bg);
+}
+/* 顶部导航样式 */
+.topMenuWarp{
+  display: flex;
+  height: 58px;
+  background-color:var(--theme-bg);
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index:10;
 }
 
+.topMenuCon{
+  max-width: 1122px;
+  margin: 0 auto;
+  /* background-color: lightpink; */
+}
+/* 控制子元素水平垂直排列 */
+.justify{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.topCon1{
+  width: 200px;
+  height: 32px;
+  position: relative;
+  background-color:var(--bg);
+  border-radius: 24px;
+
+}
+
+.topIcon{
+  width: 90px;
+  height: 38px;
+  background: #f26d5f;
+  position: absolute;
+  top:0;
+  left:-90px;
+}
+
+.sosuInt{
+  width: 153px;
+  border: none;
+  font-size: 14px;
+  background-color:var(--bg); 
+
+}
+
+.small-sosu{
+  font-size:16px; 
+  font-weight: 600;
+  margin-left: 10px;
+}
+.topCon2{
+  width: 642px;
+  align-items: center;
+}
+/* 设置icon图标大小 */
+.middleIcon{
+  font-size: 24px;
+}
+.topUL{
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.topCon3{
+  width: 282px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+/* button 统一样式 */
+.loginTopBtn{
+  display: block;
+  width: 60px;
+  height: 30px;
+  margin: auto;
+  border: none;
+  border-radius: 24px;
+  box-sizing: border-box;
+  font-size: 14px; 
+  background-color:var(--theme-bg);
+  color:#939393;
+
+}
+.topBtn1{
+  background-color: #ff8200;
+  color: #f2f2f2;
+}
+
+.change{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  font-size: 16px;
+  background-color:var(--bg);
+  border-radius: 50%;
+  margin-right: 10px;
+  border: none;
+}
+.change1{
+margin-left: 7px;
+display: none;
+
+}
+.buttonTop{
+  background-color: #ff8200;
+  color: #fff;
+
+}
+
+.change2{
+  position: absolute;
+  top:6px;
+  left: 7px;
+  /* display: none; */
+}
+
+/* 无障碍 */
+.bar{
+  width: 86px;
+  height: 30px;
+  margin-left: 30px;
+  position: absolute;
+  top:0;
+  left:270px;
+}
+
+.line{
+  height: 100%;
+  width: 1px;
+  border-right: 1px solid var(--bg);
+
+}
+
+.topBtn3{
+  width: 66px;
+  margin-left: 20px;
+  background-color:var(--bg);
+}
+
+
+
+/* 背景图部分样式 */
 .bg-video {
   height: 330px;
   object-fit: cover;
@@ -9,7 +161,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: -100;
   transform: translateX(-50%);
   z-index: 0;
 }
@@ -95,7 +247,7 @@ body {
 
 }
 
-.icon-sousuo {
+.big-sosu {
   font-size: 32px;
   color: #838383;
   position: absolute;
@@ -115,7 +267,7 @@ body {
   background-color: #ff8200;
   font-size: 20px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--theme-bg);
 }
 
 .icon-xinhao {
@@ -142,7 +294,7 @@ body {
 .menubar {
   width: 182px;
   height: 562px;
-  background-color: #ffffff;
+  background-color: var(--theme-bg);
   position: sticky;
   top: 56px;
 
@@ -199,7 +351,7 @@ body {
   height: 44px;
   text-align: center;
   line-height: 44px;
-  background-color: #ffffff;
+  background-color: var(--theme-bg);
   display: flex;
 
 }
@@ -228,7 +380,7 @@ body {
 .rightCon {
   width: 280px;
   height: 562px;
-  background-color: #f5f5f5;
+  background-color: var( --bg);
   /* background-color: #ff8200; */
   position: sticky;
   top:-562px;
@@ -288,7 +440,7 @@ body {
 /* 榜单部分 */
 .hotListCon{
   margin-top: 10px;
-  background-color:#ffffff; 
+  background-color:var(--theme-bg); 
 }
 
 .hotTop{

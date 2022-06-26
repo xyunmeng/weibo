@@ -8,11 +8,56 @@
   <title>新浪微博</title>
   <link rel="stylesheet" href="css/reset.min.css">
   <link rel="stylesheet" href="font/iconfont.css">
+  <script src="https://kit.fontawesome.com/fff3aa0c8a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/layzing.css">
 </head>
 
 <body>
   <div id="pcBox">
+    <!-- 顶部菜单 -->
+  <div class="topMenuWarp">
+      <div class="topMenuCon justify">
+        <div class="topCon1 justify">
+          <div class="topIcon"></div>
+          <div class="top-sosu justify">
+            <i class="iconfont icon-sousuo small-sosu"></i>
+            <input type="text" placeholder="搜索微博" class="sosuInt">
+          </div>
+        </div>
+        <div class="topCon2 justify">
+          <ul class="justify topUL">
+            <li><i class="fa-solid fa-house middleIcon"></i></li>
+            <li><i class="fa-solid fa-tv middleIcon"></i></li>
+            <li><i class="fa-solid fa-fire middleIcon"></i></li>
+            <li><i class="fa-regular fa-envelope middleIcon"></i></li>
+            <li><i class="fa-regular fa-user middleIcon"></i></li>
+          </ul>
+        </div>
+        <div class="topCon3 justify">
+          <div class="justify">
+            <button class="loginTopBtn topBtn1">登录</button>
+            <button class="loginTopBtn">注册</button>
+          </div>
+          <div class="justify">
+            <div class="justify change">
+              <div><i class="fa-solid fa-sun change1"></i></div>
+              <div><i class="fa-solid fa-moon change2"></i></div>
+            </div>
+            <button class="change buttonTop"><i class="fa-regular fa-pen-to-square "></i></button>
+          </div>
+          <div class="justify bar">
+              <div class="line"></div>
+              <button class="loginTopBtn topBtn3">无障碍</button>
+            </div>
+        </div>
+        
+
+      </div>
+      
+  </div>
+    
+
     <video class="bg-video" src="https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4" autoplay='true' loop muted preload
       poster="https://a.sinaimg.cn/mintra/pic/2112130400/18weibo_login.png"></video>
     <!-- 顶部导航 -->
@@ -29,7 +74,7 @@
         </div>
         <div class="topSearch">
           <div class="inputBox">
-            <i class="iconfont icon-sousuo"></i>
+            <i class="iconfont icon-sousuo big-sosu"></i>
             <input type="text" class="one" placeholder="搜索微博">
           </div>
           <div class="searchBox">
@@ -64,6 +109,7 @@
       </div>
       <!-- 中间内容 -->
       <div class="containCon">
+        <!-- 菜单栏 -->
         <div class="navCon">
           <ul class="navUL">
             <li class="navLI">热门</li>
@@ -76,6 +122,31 @@
           </ul>
           <div class="moreCon"><i class="iconfont icon-gengduo"></i></div>
         </div>
+        <div class="secondCon">
+            <article class="articleWrap">
+                <div class="justify articleTop">
+                  <div class="justify nameBox">
+                    <div class="justify avatarBox">
+                      <div class="avatar">
+                          <img src="https://tvax4.sinaimg.cn/crop.0.0.600.600.180/006IWlSJly8gy5amc98bdj30go0go0t6.jpg" alt="">
+                      </div>
+                      <div class="titleBox">
+                        <div class="title"><p>腾讯游戏安全中心</p><img src="./images/VIP.png" alt=""></div>
+                        <div class="timeBox">6-24&nbsp;14:24&nbsp;腾讯游戏安全中心</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="articleBox">
+                      <div class="wordBox"></div>
+                      <div class="imgBox"></div>
+                  </div>
+                </div>
+                <div class="articleFoot"></div>
+      
+      
+              </article>
+        </div>
+
       </div>
       <!-- 右边内容 -->
       <div class="rightCon">
@@ -254,7 +325,7 @@
 
 
   </div>
-
+  <script src="./js/request.js"></script>
 </body>
 
 </html>
